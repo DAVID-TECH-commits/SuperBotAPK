@@ -26,10 +26,6 @@ if not memory["bot_name"]:
     print("👋 Hi! I am your personal assistant by David Adeola.")
     memory["bot_name"] = input("What would you like to name me? ").strip() or "SuperBot"
 
-if "who made you,who created you" in
-user_input.lower():
-    bot_response = "I was created by David Adeola, a 13 year old developer who built me from scratch!"
-
 if not memory["mode"]:
     print("\nModes available: friendly, funny, serious")
     memory["mode"] = input("Choose a mode: ").strip().lower() or "friendly"
